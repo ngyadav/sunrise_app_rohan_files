@@ -1,0 +1,330 @@
+{
+  "project_info": {
+    "project_number": "876613037199",
+    "firebase_url": "https://sunrise-36b9a.firebaseio.com",
+    "project_id": "sunrise-36b9a",
+    "storage_bucket": "sunrise-36b9a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:876613037199:android:38733e9bdc73215b",
+        "android_client_info": {
+          "package_name": "com.example.rohan.sunrise"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "876613037199-ejsqs7hg7mkuq58psh768f111q1q76s4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.rohan.sunrise",
+            "certificate_hash": "8cb5248bcd68824478d7d725e6579abd76ee35b8"
+          }
+        },
+        {
+          "client_id": "876613037199-k717jmthnot6mcpkr3gpalgkdssrj158.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.rohan.sunrise",
+            "certificate_hash": "7bbc6f98f7433bd42a76eb18b8912ab4fe128673"
+          }
+        },
+        {
+          "client_id": "876613037199-ak00mdj8efasi8e209i9hje3vibirng0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.rohan.sunrise",
+            "certificate_hash": "0b15faeafe462508b5ed387fc932b7b898e5899d"
+          }
+        },
+        {
+          "client_id": "876613037199-apek8q7pa6moe3ujj5jhf5ljispmu1nv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.rohan.sunrise",
+            "certificate_hash": "c60393dd995288a498a4f5c2d83dfc1c69066ef6"
+          }
+        },
+        {
+          "client_id": "876613037199-rk226n9q8cgak8hq7siu27h81d3g5bvo.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.rohan.sunrise",
+            "certificate_hash": "f6f24cef008bafa2711a4021831f46cc8aa89403"
+          }
+        },
+        {
+          "client_id": "876613037199-md5uren9ptj79td5vbgeij5v5rrq2urg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBrKtISv_uWJ93roR0h4NrXc3aZark4CKs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "876613037199-md5uren9ptj79td5vbgeij5v5rrq2urg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      },
+      "admob_app_id": "ca-app-pub-5167989951191945~5928872897"
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:876613037199:android:06100b8a8837dacb7b14fa",
+        "android_client_info": {
+          "package_name": "rohan.groups.sunrise"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "876613037199-i4nhdjkbcnsufmuapsuh8230ikut9t1a.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "rohan.groups.sunrise",
+            "certificate_hash": "26cb08f64d7ab14a327cad82f5ccb48a42fccc95"
+          }
+        },
+        {
+          "client_id": "876613037199-md5uren9ptj79td5vbgeij5v5rrq2urg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBrKtISv_uWJ93roR0h4NrXc3aZark4CKs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "876613037199-md5uren9ptj79td5vbgeij5v5rrq2urg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:876613037199:android:77a9c47fa0ef8558",
+        "android_client_info": {
+          "package_name": "rohan.groups.sunriseaccounts"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "876613037199-7lbknvvvi7n0n3v7hr9o548ro21detd2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "rohan.groups.sunriseaccounts",
+            "certificate_hash": "f6f24cef008bafa2711a4021831f46cc8aa89403"
+          }
+        },
+        {
+          "client_id": "876613037199-md5uren9ptj79td5vbgeij5v5rrq2urg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBrKtISv_uWJ93roR0h4NrXc3aZark4CKs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "876613037199-md5uren9ptj79td5vbgeij5v5rrq2urg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:876613037199:android:8ed651eb75263b497b14fa",
+        "android_client_info": {
+          "package_name": "rohan.groups.sunrisedelivery"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "876613037199-71g73oeeiovi87ig6eoaas23222u431l.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "rohan.groups.sunrisedelivery",
+            "certificate_hash": "26cb08f64d7ab14a327cad82f5ccb48a42fccc95"
+          }
+        },
+        {
+          "client_id": "876613037199-md5uren9ptj79td5vbgeij5v5rrq2urg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBrKtISv_uWJ93roR0h4NrXc3aZark4CKs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "876613037199-md5uren9ptj79td5vbgeij5v5rrq2urg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:876613037199:android:6bf13eb8bbf970cb",
+        "android_client_info": {
+          "package_name": "sunrise.release.rohan.sunrise"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "876613037199-q207a9kfpjr2niillvqle0oqt841dipu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "sunrise.release.rohan.sunrise",
+            "certificate_hash": "26cb08f64d7ab14a327cad82f5ccb48a42fccc95"
+          }
+        },
+        {
+          "client_id": "876613037199-1c2kg0t6r0i9jl8fboh3b4r00bgh3t89.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "sunrise.release.rohan.sunrise",
+            "certificate_hash": "7bbc6f98f7433bd42a76eb18b8912ab4fe128673"
+          }
+        },
+        {
+          "client_id": "876613037199-ngn3s2smbtp00j789artomqvdp5iab1k.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "sunrise.release.rohan.sunrise",
+            "certificate_hash": "0b15faeafe462508b5ed387fc932b7b898e5899d"
+          }
+        },
+        {
+          "client_id": "876613037199-ki4o7k1u77p15odensmr6kbd34scqi9b.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "sunrise.release.rohan.sunrise",
+            "certificate_hash": "c60393dd995288a498a4f5c2d83dfc1c69066ef6"
+          }
+        },
+        {
+          "client_id": "876613037199-q41upgm3rcu41tkkpi1o9029lebu7uco.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "sunrise.release.rohan.sunrise",
+            "certificate_hash": "f6f24cef008bafa2711a4021831f46cc8aa89403"
+          }
+        },
+        {
+          "client_id": "876613037199-md5uren9ptj79td5vbgeij5v5rrq2urg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBrKtISv_uWJ93roR0h4NrXc3aZark4CKs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "876613037199-md5uren9ptj79td5vbgeij5v5rrq2urg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:876613037199:android:0b36421fc4ea8d6f",
+        "android_client_info": {
+          "package_name": "sunrise.release.rohan.sunriseseller"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "876613037199-pilpi2o4cei9cb18f2dnf50c8mn87j9v.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "sunrise.release.rohan.sunriseseller",
+            "certificate_hash": "c60393dd995288a498a4f5c2d83dfc1c69066ef6"
+          }
+        },
+        {
+          "client_id": "876613037199-8fag6l9ncui75fcak7c3iuv642qk7l07.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "sunrise.release.rohan.sunriseseller",
+            "certificate_hash": "7bbc6f98f7433bd42a76eb18b8912ab4fe128673"
+          }
+        },
+        {
+          "client_id": "876613037199-0bohr7h50s2fu6v9i72f2ieuj5i182tu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "sunrise.release.rohan.sunriseseller",
+            "certificate_hash": "0b15faeafe462508b5ed387fc932b7b898e5899d"
+          }
+        },
+        {
+          "client_id": "876613037199-u0nmh6mfrq9haiplbn3m5ft5cetf95d9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "sunrise.release.rohan.sunriseseller",
+            "certificate_hash": "8cb5248bcd68824478d7d725e6579abd76ee35b8"
+          }
+        },
+        {
+          "client_id": "876613037199-toa72lm77lgf60m913efc4u454a09umo.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "sunrise.release.rohan.sunriseseller",
+            "certificate_hash": "f6f24cef008bafa2711a4021831f46cc8aa89403"
+          }
+        },
+        {
+          "client_id": "876613037199-md5uren9ptj79td5vbgeij5v5rrq2urg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBrKtISv_uWJ93roR0h4NrXc3aZark4CKs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "876613037199-md5uren9ptj79td5vbgeij5v5rrq2urg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

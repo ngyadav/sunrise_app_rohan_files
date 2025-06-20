@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/cardviewitem"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardBackgroundColor="#fff"
+    >
+
+    <LinearLayout
+        android:id="@+id/itemsrow"
+        android:layout_margin="5sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="3">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/indicator"
+                android:layout_width="120dp"
+                android:layout_height="120dp"/>
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:orientation="vertical"
+            android:layout_weight="2">
+
+            <TextView
+                android:id="@+id/itemname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000"
+                android:textSize="12sp"
+                android:text=""
+                />
+
+            <TextView
+                android:id="@+id/itemdesc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000"
+                android:textSize="12sp"
+                android:text=""
+                />
+
+
+
+            <TextView
+                android:id="@+id/itemprice"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textColor="@color/colorBlack"
+                android:text=""/>
+
+
+            <LinearLayout
+                android:id="@+id/row"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_weight="1">
+
+                    <TextView
+                        android:id="@+id/add"
+                        android:layout_width="match_parent"
+                        android:layout_height="30sp"
+                        android:text="EDIT"
+                        android:padding="5sp"
+                        android:textSize="12sp"
+                        android:visibility="visible"
+                        android:gravity="center"
+                        android:textStyle="bold"
+                        android:textColor="@color/colorPrimary"
+                        android:drawableRight="@drawable/ic_edit"
+                        android:background="@drawable/addround"
+                        />
+
+
+                    <LinearLayout
+                        android:id="@+id/qty"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:visibility="gone"
+                        android:weightSum="3">
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:layout_weight="1">
+
+                            <ImageView
+                                android:id="@+id/minus"
+                                android:layout_width="30sp"
+                                android:layout_height="30sp"
+                                android:src="@drawable/minus"/>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:layout_weight="1">
+
+                            <TextView
+                                android:id="@+id/qty1"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:textSize="25sp"
+                                android:layout_gravity="center"
+                                android:gravity="center"
+                                android:text="1"
+                                android:textColor="@color/colorBlack"/>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:layout_weight="1">
+
+                            <ImageView
+                                android:id="@+id/plus"
+                                android:layout_width="30sp"
+                                android:layout_height="30sp"
+                                android:src="@drawable/plus"/>
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+
+                    <TextView
+                        android:id="@+id/qty2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="15sp"
+                        android:visibility="gone"
+                        android:layout_gravity="center"
+                        android:text="QQuanitty 1"
+                        android:textColor="@color/colorBlack"/>
+
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:gravity="right"
+                    android:layout_weight="1">
+
+                    <ImageView
+                        android:id="@+id/delete"
+                        android:layout_width="30sp"
+                        android:layout_height="30sp"
+                        android:visibility="visible"
+                        android:layout_gravity="right"
+                        android:src="@drawable/delete"/>
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+
+
+
+
+
+                <TextView
+                    android:id="@+id/dummy"
+                    android:visibility="gone"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""/>
+
+
+
+                <TextView
+                    android:id="@+id/pushid"
+                    android:visibility="gone"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""/>
+
+
+            <TextView
+                android:id="@+id/rewards"
+                android:visibility="gone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""/>
+
+
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+
+
+
+
+
+
+    </LinearLayout>
+
