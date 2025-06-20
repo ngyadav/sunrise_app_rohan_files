@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "876613037199",
+    "firebase_url": "https://sunrise-36b9a.firebaseio.com",
+    "project_id": "sunrise-36b9a",
+    "storage_bucket": "sunrise-36b9a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:876613037199:android:38733e9bdc73215b",
+        "android_client_info": {
+          "package_name": "sunrise.release.rohan.sunrise"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "876613037199-rk226n9q8cgak8hq7siu27h81d3g5bvo.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "sunrise.release.rohan.sunrise",
+            "certificate_hash": "f6f24cef008bafa2711a4021831f46cc8aa89403"
+          }
+        },
+        {
+          "client_id": "876613037199-md5uren9ptj79td5vbgeij5v5rrq2urg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB15k0jyfJEX36T-1b9x_wGNCexR-Fmbn0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "876613037199-md5uren9ptj79td5vbgeij5v5rrq2urg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

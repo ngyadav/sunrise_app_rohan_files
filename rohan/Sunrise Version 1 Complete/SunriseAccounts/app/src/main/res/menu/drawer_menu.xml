@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item android:id="@+id/NAccounts" android:title="Accounts" android:icon="@drawable/ic_accounts"/>
+    <item android:id="@+id/NAccountsHistory" android:title="Accounts History" android:icon="@drawable/ic_history"/>
+    <item android:id="@+id/NEasy" android:title="Easy Recharge" android:icon="@drawable/ic_easy"/>
+    <item android:id="@+id/NEasyHistory" android:title="Easy Recharge History" android:icon="@drawable/ic_history"/>
+    <item android:id="@+id/NEasyAdd" android:title="Add Easy" android:icon="@drawable/ic_add"/>
+    <item android:id="@+id/NCreateUser" android:title="Create User" android:icon="@drawable/ic_create_user"/>
+    <item android:id="@+id/NAStatus" android:title="Accounts Status Approval" android:icon="@drawable/ic_status"/>
+    <item android:id="@+id/NEStatus" android:title="Easy Status Approval" android:icon="@drawable/ic_status"/>
+    <item android:id="@+id/NAAdminHistory" android:title="Accounts History" android:icon="@drawable/ic_history"/>
+    <item android:id="@+id/NEAdminHistory" android:title="Easy History" android:icon="@drawable/ic_history"/>
+    <item android:id="@+id/Nlogout" android:title="Logout" android:icon="@drawable/ic_logout"/>
+
+
+</menu>

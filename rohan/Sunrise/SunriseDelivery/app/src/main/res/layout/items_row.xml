@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/cardviewitem"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardBackgroundColor="#fff"
+    >
+
+    <LinearLayout
+        android:id="@+id/itemsrow"
+        android:layout_margin="15sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="3">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_weight="0.5">
+
+            <ImageView
+                android:id="@+id/indicator"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/dummy"/>
+
+
+
+            <TextView
+                android:id="@+id/foodtype"
+                android:layout_width="12dp"
+                android:layout_height="13dp"
+                android:visibility="gone"/>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:orientation="vertical"
+            android:layout_weight="1.55">
+
+            <TextView
+                android:id="@+id/itemname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000"
+                android:textSize="12sp"
+                android:text="Spinach Corn Sandwich"
+                />
+
+            <TextView
+                android:id="@+id/itemdesc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000"
+                android:textSize="12sp"
+                android:text="Spinach Corn Sandwich"
+                />
+
+
+
+            <TextView
+                android:id="@+id/itemprice"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textColor="@color/colorBlack"
+                android:text="100"/>
+
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/qty"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_weight="0.3">
+            <TextView
+                android:id="@+id/qtybadge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textColor="#000"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textSize="15sp"
+                android:text="10"/>
+
+            <TextView
+                android:id="@+id/itemprofit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#FF0000"
+                android:textStyle="bold"
+                android:visibility="gone"
+                android:text="100"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_weight="0.6">
+
+
+            <TextView
+                android:id="@+id/add"
+                android:layout_width="match_parent"
+                android:layout_height="30sp"
+                android:text="EDIT"
+                android:padding="5sp"
+                android:textSize="12sp"
+                android:visibility="visible"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textColor="#347B09"
+                android:drawableRight="@drawable/ic_edit"
+                android:background="@drawable/addround"
+                />
+
+            addround.xml
+            <com.cepheuen.elegantnumberbutton.view.ElegantNumberButton
+                android:id="@+id/counter"
+                android:layout_width="match_parent"
+                android:visibility="gone"
+                app:backGroundColor="@color/colorPrimaryDark"
+                app:textSize="10sp"
+                android:layout_height="50sp">
+
+            </com.cepheuen.elegantnumberbutton.view.ElegantNumberButton>
+
+
+            <!--<ImageView-->
+            <!--android:id="@+id/delete"-->
+            <!--android:layout_gravity="center"-->
+            <!--android:layout_width="30dp"-->
+            <!--android:layout_height="30dp"-->
+            <!--android:src="@drawable/delete"-->
+            <!--/>-->
+
+
+            <TextView
+                android:id="@+id/dummy"
+                android:visibility="gone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""/>
+
+
+
+
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+
+
+
+
+
+
+
+</LinearLayout>

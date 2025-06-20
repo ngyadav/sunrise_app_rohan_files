@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Sunrise</title>
+  <!-- Tell the browser to be responsive to screen width -->
+  <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+  <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="bower_components/font-awesome/css/font-awesome.min.css">
+  <!-- Ionicons -->
+  <link rel="stylesheet" href="bower_components/Ionicons/css/ionicons.min.css">
+  <!-- Theme style -->
+  <link rel="stylesheet" href="dist/css/AdminLTE.min.css">
+  
+    
+  <link rel="stylesheet" href="dist/css/skins/skin-blue.css">
+
+  <!-- Google Font -->
+  <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,300italic,400italic,600italic">
+   
+        <style>
+            body {font-family: Arial, Helvetica, sans-serif;}
+            
+            
+            input[type=text], input[type=password],input[type=file] {
+                width: 200px;
+                padding: 5px 5px;
+                margin: 5px 5px;
+                display: inline-block;
+                border: 1px solid black;
+                box-sizing: border-box;
+                text-align: left;
+                margin-left: 10px;
+                background-color: rgb(235,235,235);
+                
+            }
+               
+            
+            
+            button {
+                background-color: black;
+                color: white;
+                padding: 10px 10px;
+                margin: 8px 5px;
+                border: none;
+                cursor: pointer;
+                width: 100px;
+                border-radius: 50px;
+                
+            
+                
+                
+            }
+            
+            button:hover {
+                opacity: 0.8;
+            }
+            
+            
+            
+            
+                    .container-fluid-a
+                {
+                    width: 510px;
+                    height: 610px;
+            /*        background:url(images/cool.jpg);*/
+                    background-color:rgb(235,235,235);
+                    background-size: cover;
+                    top:15%;
+                    left:25%;
+                    position: absolute;
+                    transform: translate(-50%,-50%);
+                    box-sizing: border-box;
+                   display:center;
+                    float: left;
+                    margin-top:21%;
+                    
+                    
+                
+                    
+                   
+                }
+                
+                    .container-fluid-b
+                {
+                    width: 500px;
+                    height: 610px;
+            /*        background:url(images/cool.jpg);*/
+                    background-color:rgb(235,235,235);
+                    background-size: cover;
+                    top:15%;
+                    left:60%;
+                    position: absolute;
+                    transform: translate(-50%,-50%);
+                    box-sizing: border-box;
+                   display:center;
+                    float: left;
+                    margin-top:21%;
+                    
+                    
+                
+                    
+                   
+                }
+                .container-fluid
+                {
+                    width: 100%;
+                    min-height: 600px;
+                    background-size: cover;
+                    position: absolute;
+                    display: center;
+                }
+                
+            
+               
+            
+            
+            
+                label
+                {
+                    color:black;
+                    font-size: 15px;
+                }
+                body
+                {
+                    margin: 0;
+                    padding: 0;
+            /*        background: url(images/Sky.jpg);*/
+                    background-size:cover;
+                    font-family: sans-serif;
+                    background-color: rgb(255,255,255);
+                    
+                }
+            
+              
+            
+            
+            /*
+            span.password {
+                float: right;
+                padding-top: 16px;
+                margin-right: 41%;
+            }
+            */
+                
+</style>
+</head>
+    <body class="hold-transition skin-blue sidebar-mini">
+       <div id="includedContent"></div> 
+        <div id="includedSidebar"></div>
+
+        
+        
+          <div class="content-wrapper">
+              <section class="content container-fluid">
+                
+                  <div class="container-fluid">
+        <h1 style="text-align: center; font-size: 30px; margin-right: 20%;font-weight:600;">Home Page Category</h1>
+   
+    <div align = "center">
+        <div class="container-fluid-a" >
+        <h3>Mobiles</h3>
+
+        
+               <label for="type"><b>Mobile</b></label>
+  
+        <select id="mobile" style="width: 200px; background-color: rgb(235,235,235); color: black;  border: 1px solid black; margin-left: 15%;  padding: 5px 5px; ">
+              
+   <option value="Mobile1">Mobile1</option>
+   <option value="Mobile2">Mobile2</option>
+   <option value="Mobile3">Mobile3</option>
+   <option value="Mobile4">Mobile4</option>
+  </select>
+        <br>
+            <br>
+
+        <label for="number"><b>Name</b></label>
+        
+        <!-- <input type="text" style="margin-left: 95px;" id="namem" name="name" required> -->
+        <select id="number" style="width: 200px; background-color: rgb(235,235,235); color: black;  border: 1px solid black; margin-left: 16%; padding: 5px 5px; ">
+              
+            <option value="Select">Select ....</option>
+           </select> 
+         
+            <br>
+            <br>
+
+        
+    <button  id="mobilebtn" style="margin-left: 5%;" type="submit">Add</button>
+    <h3>Baner1</h3>
+                   <label for="image1"><b>Image</b></label>
+                   <input type="file" id="image1" style="border: hidden; margin-left: 17%;" name="pic" accept="image/*">
+                      <br>
+    
+            
+    
+            
+        <button  id="baner1btn" style="margin-left: 29%;" type="submit">Add</button>
+        
+<button id="baner1submit" type="submit" style="visibility: hidden">Submit</button>
+
+    <h3 style="margin-left: 15%;">Image Carousel</h3>
+    <label for="carouselname"><b>Name</b></label>
+    <input type="text" style="margin-left: 18%;" id="carouselname">
+    <br>
+<label for="image3"><b>Image</b></label>
+<input type="file" id="image3" style="border: hidden; margin-left:15%;" name="pic" accept="image/*">
+   <br>
+     <label for="newarrival"><b>Name</b></label>
+                  
+                  <select id="newarrival" style="width: 200px; background-color: rgb(235,235,235); color: black;  border: 1px solid black; margin-left: 18%; padding: 5px 5px; ">
+              
+                    <option value="Select">Select ....</option>
+                   </select> 
+   <button  id="carouselbtn" style="margin-left: 27%;" type="submit">Add</button>
+   <button id="carouselsubmit" type="submit" style="visibility: hidden">Submit</button>
+
+
+    </div>
+    </div>
+   
+            <div align = "center">
+        <div class="container-fluid-b" >
+        
+            <center><h3 style="margin-left:13%;">New Arrivals</h3></center>
+    
+            <label for="type"><b>New Arrivals</b></label>
+            
+                  <select id="arrival" style="width: 200px; background-color: rgb(235,235,235); color: black;  border: 1px solid black; margin-left: 8%;  padding: 5px 5px; ">
+                        
+             <option value="NewArrival1">NewArrival1</option>
+             <option value="NewArrival2">NewArrival2</option>
+             <option value="NewArrival3">NewArrival3</option>
+             <option value="NewArrival4">NewArrival4</option>
+            </select>
+                  <br>
+            <br>
+          
+                  <label for="newarrival"><b>Name</b></label>
+                  
+                  <select id="newarrival1" style="width: 200px; background-color: rgb(235,235,235); color: black;  border: 1px solid black; margin-left: 18%; padding: 5px 5px; ">
+              
+                    <option value="Select">Select ....</option>
+                   </select> 
+                     
+                   <br><br>
+            
+    <button  id="arrivalbtn" style="margin-left: 7%;" type="submit">Add</button>
+    
+    <center><h3>Baner2</h3></center>
+    <label for="image1" ><b>Image</b></label>
+    <input type="file" id="image2" style="border: hidden; margin-left:15%;" name="pic" accept="image/*">    
+
+<br>
+
+
+<button  id="baner2btn" style="margin-left: 29%;" type="submit">Add</button>
+<button id="baner2submit" type="submit" style="visibility: hidden">Submit</button>
+    </div>
+    </div>
+     
+   
+    
+    
+    </div>
+                </section>
+        </div>
+
+
+        <script src="homepage_category.js"></script>
+    </body>   
+    
+    
+    
+    
+    
+    
+    <script src="bower_components/jquery/dist/jquery.min.js"></script>
+    <!-- jQuery 3 -->
+<script src="bower_components/jquery/dist/jquery.min.js"></script>
+<!-- Bootstrap 3.3.7 -->
+<script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+<!-- AdminLTE App -->
+<script src="dist/js/adminlte.min.js"></script>
+    <script> 
+    $(function(){
+      $("#includedContent").load("Header.html"); 
+        $("#includedSidebar").load("Sidepanel.html");        
+//        $("#maindata").load("../CategoryUpload/category.html");   
+    });
+    </script> 
+    <script src="https://www.gstatic.com/firebasejs/5.4.1/firebase.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/5.4.1/firebase-app.js"></script>
+
+    <!-- Add additional services that you want to use -->
+    <script src="https://www.gstatic.com/firebasejs/5.4.1/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/5.4.1/firebase-database.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/5.4.1/firebase-storage.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/5.4.1/firebase-firestore.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/5.4.1/firebase-messaging.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/5.4.1/firebase-functions.js"></script>
+    <script>
+      // Initialize Firebase
+      var config = {
+        apiKey: "AIzaSyDtbGtfYuol12eJe_ziEH0WMDyZ9V4x4Ys",
+        authDomain: "sunrise-36b9a.firebaseapp.com",
+        databaseURL: "https://sunrise-36b9a.firebaseio.com",
+        projectId: "sunrise-36b9a",
+        storageBucket: "sunrise-36b9a.appspot.com",
+        messagingSenderId: "876613037199"
+      };
+      firebase.initializeApp(config);
+      $(function() {
+               $('body').removeClass('skin-blue sidebar-mini nav-sm').addClass('skin-blue sidebar-mini nav-sm sidebar-collapse');
+            });
+    </script>
+</html>

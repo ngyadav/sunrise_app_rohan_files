@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Sunrise</title>
+  <!-- Tell the browser to be responsive to screen width -->
+  <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+  <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="bower_components/font-awesome/css/font-awesome.min.css">
+  <!-- Ionicons -->
+  <link rel="stylesheet" href="bower_components/Ionicons/css/ionicons.min.css">
+  <!-- Theme style -->
+  <link rel="stylesheet" href="dist/css/AdminLTE.min.css">
+  
+    
+  <link rel="stylesheet" href="dist/css/skins/skin-blue.css">
+
+  <!-- Google Font -->
+  <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,300italic,400italic,600italic">
+   
+        <style>
+body {font-family: Arial, Helvetica, sans-serif;}
+
+
+input[type=text], input[type=password],input[type=file] {
+    width: 230px;
+    padding: 5px 5px;
+    margin: 5px 5px;
+    display: inline-block;
+    border: 1px solid black;
+    box-sizing: border-box;
+    text-align: left;
+    margin-left: 10px;
+    background-color: rgb(235,235,235);
+    
+}
+   
+
+
+button {
+    background-color: black;
+    color: white;
+    padding: 14px 23px;
+    margin: 8px 5px;
+    border: none;
+    cursor: pointer;
+    width: 100px;
+    border-radius: 50px;
+    
+
+    
+    
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+
+
+
+        .container-fluid-a
+    {
+        width: 500px;
+        height: 610px;
+/*        background:url(images/cool.jpg);*/
+        background-color:rgb(235,235,235);
+        background-size: cover;
+        top:15%;
+        left:25%;
+        position: absolute;
+        transform: translate(-50%,-50%);
+        box-sizing: border-box;
+       display:center;
+        float: left;
+        margin-top:21%;
+        
+        
+    
+        
+       
+    }
+    
+        .container-fluid-b
+    {
+        width: 450px;
+        height: 610px;
+/*        background:url(images/cool.jpg);*/
+        background-color:rgb(235,235,235);
+        background-size: cover;
+        top:15%;
+        left:55%;
+        position: absolute;
+        transform: translate(-50%,-50%);
+        box-sizing: border-box;
+       display:center;
+        float: left;
+        margin-top:21%;
+        
+        
+    
+        
+       
+    }
+    .container-fluid
+    {
+        width: 100%;
+        min-height: 600px;
+        background-size: cover;
+        position: absolute;
+        display: center;
+    }
+    
+
+   
+
+
+
+    label
+    {
+        color:black;
+        font-size: 15px;
+    }
+    body
+    {
+        margin: 0;
+        padding: 0;
+/*        background: url(images/Sky.jpg);*/
+        background-size:cover;
+        font-family: sans-serif;
+        background-color: rgb(255,255,255);
+        
+    }
+
+  
+
+
+/*
+span.password {
+    float: right;
+    padding-top: 16px;
+    margin-right: 41%;
+}
+*/
+    
+
+</style>
+</head>
+    <body class="hold-transition skin-blue sidebar-mini">
+       <div id="includedContent"></div> 
+        <div id="includedSidebar"></div>
+
+        
+        
+          <div class="content-wrapper">
+              <section class="content container-fluid">
+                
+          <div class="container-fluid">
+        <h1 style="text-align: center; font-size: 30px; font-weight: 600; margin-right: 23%;">Stationary Category</h1>
+   
+    <div align = "center">
+        <div class="container-fluid-a" >
+        
+        
+   
+<!--    <h1 style= "text-align: center; margin-top:5px; color:darkblue;"></h1>-->
+  <br>
+
+  
+  <label for="name"><b>Name</b></label>
+    
+  <input type="text" style="margin-left: 18%;" id="name"  required>
+      <br>
+
+   <label for="username" style="margin-right: -45%;"><b>Name</b></label>
+                
+   <select id="namelist" style="width: 180px; background-color: rgb(235,235,235); color: black;  border: 1px solid black; margin-left: 64%; padding: 5px 5px; ">
+
+     <option value="Select">Select ....</option>
+    </select> 
+    <button id='search' class="icon" style="padding: 2px 2px; width:50px; margin: 2px 2px; margin-left:1%; background-color: rgb(235,235,235); color: black;"><i class="glyphicon glyphicon-search"></i></button>
+<!--      <button type="submit" style="width: 70px; margin: 0px; padding: 0px; margin-left: 0px;"><i class="fa fa-search"></i></button>-->
+   <br>
+    
+       <label for="price"><b>Price</b></label>
+    <input type="text" style="margin-left: 19%;"   id="price" name="price" required>
+     <br>
+    
+    <label for="rewardpoints"><b>Reward Points</b></label>
+    <input type="text" style="margin-left: 6%;" id="rewardpoints">
+       <br>
+            <br>
+    
+      <label for="image1"><b>Image1</b></label>
+    <input type="file" id="image1" style="border: hidden; margin-left: 14%;" name="pic" accept="image/*">
+       <br>
+      
+       <label for="image2" ><b>Image2</b></label>
+    <input type="file" id="image2" style="border: hidden;  margin-left: 14%;" name="pic" accept="image/*">
+       <br>
+      
+       <label for="image3" ><b>Image3</b></label>
+    <input type="file" id="image3" style="border: hidden;  margin-left: 14%;" name="pic" accept="image/*">
+       <br>
+            <br>
+     
+      
+            
+             <label for="type" ><b>Type</b></label>
+                <input type="text" style="margin-left: 18%;" id="typeacc">
+                <br>
+            
+                    <label for="brand"><b>Brand</b></label>
+     <input type="text" style="margin-left: 17.5%;"   id="brand">
+      <br>
+            
+            <label for="quantity"><b>Quantity</b></label>
+       <input type="text" style="margin-left: 14%;"   id="quantity" name="quantity" required >
+        <br>
+         
+             <label for="ratings"><b>Ratings</b></label>
+       <input type="text" style="margin-left: 15%;"   id="ratings" name="ratings" required >
+        <br>
+     
+      
+                <label for="stock"><b>Stock</b></label>
+                <select  id="stock" style="width: 230px; background-color: rgb(235,235,235); color: black;  border: 1px solid black; margin-left: 17%;  padding: 5px 5px; ">
+                       
+                   <option value="In Stock">In Stock</option>
+                   <option value="Out of Stock">Out Of Stock</option>
+                  
+                 </select>
+      
+       
+      
+      
+      
+      
+       
+    
+      
+      
+      
+      
+      
+<!--    <button type="submit">Add</button>-->
+      
+<!--
+    <label>
+      <input type="checkbox" checked="checked" name="remember"> Remember me
+    </label>
+-->
+<!--    <button type="button" class="resetbtn">Reset</button>-->
+      <br>
+      <br>
+<!--    <span class="password">Forgot <a href="#">password?</a></span>-->
+  
+    
+
+    
+    </div>
+    </div>
+   
+            <div align = "center">
+        <div class="container-fluid-b" >
+        
+        
+   
+<!--    <h1 style= "text-align: center; margin-top:5px; color:darkblue;"></h1>-->
+  <br>
+
+  <label for="feature1"><b>Feature1</b></label>
+    <input type="text" style="margin-left: 15%;"   id="feature1" name="feature1" required>
+     <br>
+      
+       <label for="feature2"><b>Feature2</b></label>
+    <input type="text" style="margin-left: 15%;"   id="feature2" name="feature2" required>
+     <br>
+        <label for="feature3"><b>Feature3</b></label>
+    <input type="text" style="margin-left: 15%;"   id="feature3" name="feature3" required>
+     <br>
+    
+      
+       <label for="feature4"><b>Feature4</b></label>
+    <input type="text" style="margin-left: 15%;"   id="feature4" name="feature4" required>
+     <br>
+      
+        <label for="feature5"><b>Feature5</b></label>
+    <input type="text" style="margin-left: 15%;"   id="feature5" name="feature5" required >
+     <br>
+    
+        <label for="feature6"><b>Feature6</b></label>
+    <input type="text" style="margin-left: 15%;"   id="feature6">
+     <br>
+    
+      <label for="feature7"><b>Feature7</b></label>
+    <input type="text" style="margin-left: 15%;"   id="feature7">
+     <br>
+    
+         <label for="feature8"><b>Feature8</b></label>
+    <input type="text" style="margin-left: 15%;"   id="feature8" >
+     <br>
+       <label for="feature9"><b>Feature9</b></label>
+    <input type="text" style="margin-left: 15%;"   id="feature9">
+     <br>
+         <label for="feature10"><b>Feature10</b></label>
+    <input type="text" style="margin-left: 14%;"   id="feature10">
+     <br>
+         <label for="feature11"><b>Feature11</b></label>
+    <input type="text" style="margin-left: 14%;"   id="feature11">
+     <br>
+         <label for="feature12"><b>Feature12</b></label>
+    <input type="text" style="margin-left: 14%;"   id="feature12">
+     <br>
+    
+      
+    
+
+      
+      
+      
+      
+<!--    <button type="submit">Add</button>-->
+      
+<!--
+    <label>
+      <input type="checkbox" checked="checked" name="remember"> Remember me
+    </label>
+-->
+<!--    <button type="button" class="resetbtn">Reset</button>-->
+      <br>
+      <br>
+<!--    <span class="password">Forgot <a href="#">password?</a></span>-->
+  
+    
+
+    
+    </div>
+    </div>
+                <button id="add" type="submit" style="margin-top:41%;margin-left:15%;position:absolute">Add</button>
+        
+    <button id="submit" type="submit" style="margin-top:41%; margin-left: 30%; position: absolute;visibility:hidden">Submit</button>
+  
+    <button id="update" type="submit" style="margin-top:41%;margin-left:45%;position:absolute;visibility:hidden;">Update</button>
+    <button type="submit" id="deletebtn" style="margin-top: 41%;margin-left: 60%;position: absolute;visibility: hidden">Delete</button>
+    
+    
+    </div>
+                </section>
+        </div>
+    </body>   
+    
+    
+    
+    
+    <script src="stationary_category.js"></script>
+    
+    <script src="bower_components/jquery/dist/jquery.min.js"></script>
+    <!-- jQuery 3 -->
+<script src="bower_components/jquery/dist/jquery.min.js"></script>
+<!-- Bootstrap 3.3.7 -->
+<script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+<!-- AdminLTE App -->
+<script src="dist/js/adminlte.min.js"></script>
+    <script> 
+    $(function(){
+      $("#includedContent").load("Header.html"); 
+        $("#includedSidebar").load("Sidepanel.html");        
+//        $("#maindata").load("../CategoryUpload/category.html");   
+    });
+    </script> 
+    <script src="https://www.gstatic.com/firebasejs/5.4.1/firebase.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/5.4.1/firebase-app.js"></script>
+
+    <!-- Add additional services that you want to use -->
+    <script src="https://www.gstatic.com/firebasejs/5.4.1/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/5.4.1/firebase-database.js"></script><script src="https://www.gstatic.com/firebasejs/5.4.1/firebase-storage.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/5.4.1/firebase-firestore.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/5.4.1/firebase-messaging.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/5.4.1/firebase-functions.js"></script>
+    <script>
+      // Initialize Firebase
+      var config = {
+        apiKey: "AIzaSyDtbGtfYuol12eJe_ziEH0WMDyZ9V4x4Ys",
+        authDomain: "sunrise-36b9a.firebaseapp.com",
+        databaseURL: "https://sunrise-36b9a.firebaseio.com",
+        projectId: "sunrise-36b9a",
+        storageBucket: "sunrise-36b9a.appspot.com",
+        messagingSenderId: "876613037199"
+      };
+      firebase.initializeApp(config);
+      $(function() {
+               $('body').removeClass('skin-blue sidebar-mini nav-sm').addClass('skin-blue sidebar-mini nav-sm sidebar-collapse');
+            });
+    </script>
+</html>

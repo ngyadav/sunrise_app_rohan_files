@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:aapp="http://schemas.android.com/tools">
+
+    <item android:id="@+id/Nhome" android:title="@string/home"  android:icon="@drawable/house"/>
+    <item android:id="@+id/Noffers" android:title="@string/offers"  android:icon="@drawable/offers"/>
+    <item android:id="@+id/Ncategory" android:title="@string/category" android:icon="@drawable/category" />
+    <item android:id="@+id/Nrefer" android:title="@string/refer"  android:icon="@drawable/ic_refer"/>
+    <item android:id="@+id/Nrewards"
+        app:actionViewClass="android.widget.TextView"
+        android:title="Rewards"
+        android:icon="@drawable/rewards"/>
+
+    <item android:id="@+id/Norder" android:title="Orders"  android:icon="@drawable/purchase"/>
+    <item android:id="@+id/Nterms" android:title="@string/terms"  android:icon="@drawable/terms"/>
+    <item android:id="@+id/Nsupport" android:title="@string/support" android:icon="@drawable/support"/>
+    <item android:id="@+id/Nregister" android:title="Activate User" android:icon="@drawable/activate"/>
+    <item android:id="@+id/Nreport" android:title="Generate Report" android:icon="@drawable/report"/>
+    <item android:id="@+id/Nupload" android:title="Upload Category" android:icon="@drawable/category"/>
+    <item android:id="@+id/Nseller" android:title="Create Seller" android:icon="@drawable/ic_refer"/>
+    <item android:id="@+id/Nrewardscreation" android:title="Generate Reward" android:icon="@drawable/rewards"/>
+    <item android:id="@+id/Nimei" android:title="Update IMEI" android:icon="@drawable/barcode"/>
+
+    <item android:id="@+id/Nlogout" android:title="@string/signout" android:icon="@drawable/signout"/>
+
+</menu>

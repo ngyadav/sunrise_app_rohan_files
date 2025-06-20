@@ -1,0 +1,211 @@
+<!doctype html>
+<html class="fixed">
+	<head>
+
+		<!-- Basic -->
+		<meta charset="UTF-8">
+
+		<title>Generated Reports</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="description" content="SUNRISE" />
+		<meta name="keywords" content="WIDE RANGE OF CATEGORIES FOR DELIVERY AT WHOLESALE PRICE" />
+		<meta name="author" content="ROHAN GROUPS" />
+	<link rel="shortcut icon" href="assets/images/logoico.ico">
+		<!-- Mobile Metas -->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+		<!-- Web Fonts  -->
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800|Shadows+Into+Light" rel="stylesheet" type="text/css">
+
+		<!-- Vendor CSS -->
+		<link rel="stylesheet" href="assets/vendor/bootstrap/css/bootstrap.css" />
+		<link rel="stylesheet" href="assets/vendor/font-awesome/css/font-awesome.css" />
+		<link rel="stylesheet" href="assets/vendor/magnific-popup/magnific-popup.css" />
+		<link rel="stylesheet" href="assets/vendor/bootstrap-datepicker/css/datepicker3.css" />
+
+		<!-- Specific Page Vendor CSS -->
+		<link rel="stylesheet" href="assets/vendor/jquery-ui/css/ui-lightness/jquery-ui-1.10.4.custom.css" />
+		<link rel="stylesheet" href="assets/vendor/bootstrap-multiselect/bootstrap-multiselect.css" />
+		<link rel="stylesheet" href="assets/vendor/morris/morris.css" />
+
+		<!-- Theme CSS -->
+		<link rel="stylesheet" href="assets/stylesheets/theme.css" />
+
+		<!-- Skin CSS -->
+		<link rel="stylesheet" href="assets/stylesheets/skins/default.css" />
+
+		<!-- Theme Custom CSS -->
+		<link rel="stylesheet" href="assets/stylesheets/theme-custom.css">
+
+		<!-- Head Libs -->
+		<script src="assets/vendor/modernizr/modernizr.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.14.0/xlsx.full.min.js"></script>
+		<script src="filesaver.js"></script>
+
+	</head>
+	<style>
+        
+        .data-table th, 
+		.data-table td {
+			border: 1px solid black;
+			padding: 7px 17px;
+		}
+    
+    .data-table thead th {
+			background-color:#34495E;
+			color: white;
+			border-color: white !important;
+			text-transform: uppercase;
+		}
+    
+    .data-table {
+			border-collapse: collapse;
+			font-size: 14px;
+			min-width: 450px;
+		}
+    
+    .data-table tbody td {
+			color: black;
+		}
+    
+    .data-table tbody tr td {
+			background-color:white;
+			border-color: black;
+		}
+        
+        .table-wrapper
+        {
+            height: 450px;
+            overflow: auto;
+        }
+        
+        </style>
+	<body>
+		<section class="body">
+
+                <div id="includedContent"></div> 
+                <div id="includedSidebar"></div>
+
+				<div class="inner-wrapper">
+				<section role="main" class="content-body">
+						<header class="page-header">
+								<h2>Generated Reports</h2>
+							</header>
+						
+							<div class="row">
+									<div class="col-lg-12">
+										<section class="panel">
+
+											
+											<div class="panel-body">
+												<form class="form-horizontal form-bordered" method="get">
+                                          <div class="table-responsive">
+										  <div class="container" style="border-style:solid;padding: 5px;">
+    <label  style="margin-left:50px;" for="tid">Transaction Id:</label>
+    <input style="margin-left:5px;width: 75px;" type="text" id="tid">
+    <label for="tname" style="margin-left:30px;">Transaction Name:</label>
+    <input type="text" style="margin-left:5px;width: 75px;" id="tname">
+    <label for="ttype" style="margin-left:30px;">Transaction Type:</label>
+    <select  id="ttype" style="width: 80px;margin-left: 5px; background-color: rgb(235,235,235); color: black;  ">                            
+     <option value="Select">Select...</option>
+     <option value="Cr">Cr</option>
+     <option value="Dr">Dr</option>                           
+ </select>
+    <label for="date" style="margin-left:30px;">Date:</label>
+    <input type="text" style="margin-left:5px;width: 75px;" id="date">
+    <label for="uid" style="margin-left:30px;">Seller ID:</label>
+    <input type="number" style="margin-left:5px;width:100px;" id="uid">
+    <br>
+    <label for="aid" style="margin-left:30px;">Generated ID:</label>
+    <input type="number" style="margin-left:5px;width:100px;" id="aid">
+    
+    <!-- <img src="images/search.png" height="10px" width="10px">  -->
+    <i id="search"  style="margin-left:30px;font-size: 1.5em;" class="fa fa-search"></i>
+    <i id="print" style="margin-left:30px;font-size:1.5em;" class="fa fa-print"></i>
+    <div class="table-wrapper" style="margin-top:20px">
+     <table class="data-table" id="data-table" >
+         <thead>
+             <tr id="tr">
+                 <th>Sl.NO</th>
+                 <th>Date</th>
+                 <th>Transaction ID</th>
+                 <th>Transaction Name</th>
+                 <th>Transaction Type</th>
+                 <th>Rewards</th>
+                 <th>Seller Id</th>
+                 <th>Balance</th>
+                 <th>Generated ID</th>
+                 </tr>
+
+         </thead>
+         <tbody>
+
+         </tbody>
+     </table>
+ </div>
+
+ </div>
+ </div>
+                                                    
+											
+						
+												</form>
+											</div>
+										</section>
+								
+								
+									</div>
+								</div>
+			 	 </section>
+			  </div>
+       </section>
+       	<!-- Vendor -->
+			<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
+		<script src="assets/vendor/jquery-browser-mobile/jquery.browser.mobile.js"></script>
+	
+	<!-- Theme Base, Components and Settings -->
+		<script src="assets/javascripts/theme.js"></script>
+		
+		<!-- Theme Custom -->
+		<script src="assets/javascripts/theme.custom.js"></script>
+		
+		<!-- Theme Initialization Files -->
+		<script src="assets/javascripts/theme.init.js"></script>
+
+		
+		
+		
+	
+		
+	
+
+
+		<!-- Examples -->
+        <!-- <script src="assets/javascripts/dashboard/examples.dashboard.js"></script> -->
+        <script>
+            $(function(){
+                $("#includedContent").load("Header.html"); 
+                $("#includedSidebar").load("Sidepanel.html");        
+        //        $("#maindata").load("../CategoryUpload/category.html");   
+    });
+        </script>
+		<script src="GeneratedReports.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/5.4.1/firebase.js"></script>
+            <script src="https://www.gstatic.com/firebasejs/5.4.1/firebase-app.js"></script>
+            <script src="https://www.gstatic.com/firebasejs/5.4.1/firebase-database.js"></script>
+			<script src="https://www.gstatic.com/firebasejs/5.4.1/firebase-storage.js"></script>
+            <script>
+              // Initialize Firebase
+              var config = {
+                apiKey: "AIzaSyDtbGtfYuol12eJe_ziEH0WMDyZ9V4x4Ys",
+                authDomain: "sunrise-36b9a.firebaseapp.com",
+                databaseURL: "https://sunrise-36b9a.firebaseio.com",
+                projectId: "sunrise-36b9a",
+                storageBucket: "sunrise-36b9a.appspot.com",
+                messagingSenderId: "876613037199"
+              };
+              firebase.initializeApp(config);
+		</script>
+	
+    </body>
+</html>

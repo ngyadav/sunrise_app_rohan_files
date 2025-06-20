@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html>
+<head>
+ 
+</head>
+    
+    <body >
+<!--<div class="wrapper">-->
+    <aside class="main-sidebar">
+
+    <!-- sidebar: style can be found in sidebar.less -->
+    <section class="sidebar">
+
+      <!-- Sidebar user panel (optional) -->
+      <div class="user-panel">
+        <div class="pull-left image">
+          <img src="dist/img/avatar.png" class="img-circle" alt="User Image">
+        </div>
+        <div class="pull-left info">
+          <p id="username">User</p>
+          <!-- Status -->
+<!--          <a href="#"><i class="fa fa-circle text-success"></i> Online</a>-->
+        </div>
+      </div>
+
+      
+
+      <!-- Sidebar Menu -->
+      <ul class="sidebar-menu" data-widget="tree">
+<!--        <li class="header">HEADER</li>-->
+        <!-- Optionally, you can add icons to the links -->
+       <li  id="dashboard" >
+          <a href="Dashboard.html">
+            <i class="fa fa-dashboard"></i> <span>Dashboard</span>
+            <span class="pull-right-container">
+<!--              <i class="fa fa-angle-left pull-right"></i>-->
+            </span>
+          </a>
+        </li>
+        <li  id="category">
+          <a href="category.html">
+            <i class="fa fa-files-o"></i>
+            <span>Upload Category</span>
+            <span class="pull-right-container">
+<!--              <span class="label label-primary pull-right">4</span>-->
+            </span>
+          </a>
+          
+        </li>
+        <!-- <li id="salesreports" >
+          <a href="salesreports.html" >
+            <i class="fa fa-area-chart"></i> <span>Sales Reports</span>
+            <span class="pull-right-container">
+             <small class="label pull-right bg-green">new</small>-->
+            <!-- </span>
+          </a>
+        </li> -->
+        <li id="userreports" >
+          <a href="userreports.html" >
+            <i class="fa fa-user-circle"></i> <span>User Reports</span>
+            <span class="pull-right-container">
+<!--              <small class="label pull-right bg-green">new</small>-->
+            </span>
+          </a>
+        </li>
+        <li id="sellerreports">
+          <a href="generatedreports.html">
+            <i class="fa fa-area-chart"></i> <span>Generated Rewards</span>
+            <span class="pull-right-container">
+<!--              <small class="label pull-right bg-green">new</small>-->
+            </span>
+          </a>
+        </li>
+        <li id="rewardsreports"  >
+          <a href="rewardsreports.html">
+            <i class="fa fa-area-chart"></i> <span>Rewards Reports</span>
+            <span class="pull-right-container">
+<!--              <small class="label pull-right bg-green">new</small>-->
+            </span>
+          </a>
+        </li>
+        <li id="categoryreports" >
+          <a href="categoryreports.html">
+            <i class="fa fa-area-chart"></i> <span>Category Reports</span>
+            <span class="pull-right-container">
+<!--              <small class="label pull-right bg-green">new</small>-->
+            </span>
+          </a>
+        </li>
+        <li id="ordersreports" >
+          <a href="ordersreports.html">
+            <i class="fa fa-area-chart"></i> <span>Orders Reports</span>
+            <span class="pull-right-container">
+<!--              <small class="label pull-right bg-green">new</small>-->
+            </span>
+          </a>
+        </li>
+        <li id="servicereports" >
+          <a href="servicereports.html">
+            <i class="fa fa-area-chart"></i> <span>Services Reports</span>
+            <span class="pull-right-container">
+<!--              <small class="label pull-right bg-green">new</small>-->
+            </span>
+          </a>
+        </li>
+
+
+        <li id="usercreation" >
+          <a href="users.html">
+            <i class="fa fa-user"></i>
+            <span>User Creation</span>
+            <span class="pull-right-container"> </span>
+          </a>
+         
+        </li>
+       
+        <li id="rewards" >
+          <a href="rewards.html">
+             <i class="fa fa-gift"></i>
+            <span>Rewards</span>            
+          </a>
+          
+        </li>
+        <li id="imei" >
+            <a href="imei.html">
+                <i class="fa fa-barcode"></i>
+                <span>Update Imei</span>
+            </a>
+          </li>
+       
+     
+        <li id="settings">
+            <a href="settings.html">
+                <i class="fa fa-cog"></i>
+                <span>Settings</span>
+            </a>
+          </li>
+          
+            
+          <li id="logout">
+            <a>
+                <i class="fa fa-sign-out"></i>
+                <span>Log Out</span>
+            </a>
+          </li>
+      </ul>
+    </section>
+    <!-- /.sidebar -->
+  </aside>
+</body>
+<script>
+   
+  var role=sessionStorage.getItem('role');
+  document.getElementById('username').innerHTML=sessionStorage.getItem('username');
+  document.getElementById('dashboard').style.visibility="hidden";
+  document.getElementById('category').style.visibility="hidden";
+  // document.getElementById('salesreports').style.visibility="hidden";
+  document.getElementById('userreports').style.visibility="hidden";
+  document.getElementById('sellerreports').style.visibility="hidden";
+  document.getElementById('rewardsreports').style.visibility="hidden";
+  document.getElementById('categoryreports').style.visibility="hidden";
+  document.getElementById('ordersreports').style.visibility="hidden";
+  document.getElementById('servicereports').style.visibility="hidden";
+  document.getElementById('usercreation').style.visibility="hidden";
+  document.getElementById('rewards').style.visibility="hidden";
+  document.getElementById('imei').style.visibility="hidden";
+  document.getElementById('settings').style.visibility="hidden";
+  if(role.includes("da"))
+  document.getElementById('dashboard').style.visibility="visible";
+  if(role.includes("uc"))
+  document.getElementById('category').style.visibility="visible";
+  if(role.includes("re"))
+  document.getElementById('rewards').style.visibility="visible";
+  if(role.includes("se"))
+  document.getElementById('settings').style.visibility="visible";
+  // if(role.includes("sar"))
+  // document.getElementById('salesreports').style.visibility="visible";
+  if(role.includes("usr"))
+  document.getElementById('userreports').style.visibility="visible";
+  if(role.includes("ser"))
+  document.getElementById('sellerreports').style.visibility="visible";
+  if(role.includes("rer"))
+  document.getElementById('rewardsreports').style.visibility="visible";
+  if(role.includes("car"))
+  document.getElementById('categoryreports').style.visibility="visible";
+  if(role.includes("orr"))
+  document.getElementById('ordersreports').style.visibility="visible";
+  if(role.includes("us"))
+  document.getElementById('usercreation').style.visibility="visible";
+  if(role.includes("ii"))
+  document.getElementById('imei').style.visibility="visible";
+  if(role.includes("sr"))
+  document.getElementById('servicereports').style.visibility="visible";
+
+
+
+  document.getElementById('logout').addEventListener('click',function(){
+    sessionStorage.clear();
+    window.location = "http://sunrisebusinesses.com/Login/login.html";
+  });
+
+</script>
+</html>

@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    
+     <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Sunrise</title>
+  <!-- Tell the browser to be responsive to screen width -->
+  <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+  <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="bower_components/font-awesome/css/font-awesome.min.css">
+  <!-- Ionicons -->
+  <link rel="stylesheet" href="bower_components/Ionicons/css/ionicons.min.css">
+  <!-- Theme style -->
+  <link rel="stylesheet" href="dist/css/AdminLTE.min.css">
+  
+    
+  <link rel="stylesheet" href="dist/css/skins/skin-blue.css">
+
+  <!-- Google Font -->
+  <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,300italic,400italic,600italic">
+<style>
+body {font-family: Arial, Helvetica, sans-serif;}
+
+
+input[type=text], input[type=password] {
+    width: 200px;
+    padding: 5px 5px;
+    margin: 5px 5px;
+    display: inline-block;
+    border: 1px solid black;
+    box-sizing: border-box;
+    text-align: left;
+    margin-left: 10px;
+    background-color: rgb(235,235,235);
+    
+}
+    
+    input[type=checkbox]
+    {
+        
+        background-color: white;
+    }
+   
+
+
+button {
+    background-color: black;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 5px;
+    border: none;
+    cursor: pointer;
+    width: 100px;
+    border-radius: 50px;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+
+
+
+        .container-fluid-a
+    {
+        width: 450px;
+        height: 610px;
+/*        background:url(images/cool.jpg);*/
+        background-color:rgb(235,235,235);
+        background-size: cover;
+        top:35%;
+        left:40%;
+        position: absolute;
+        transform: translate(-50%,-50%);
+        box-sizing: border-box;
+       display:center;
+        float: left;
+        margin-top: 17.5%;
+        
+
+        
+        
+    
+        
+       
+    }
+    
+
+   
+
+
+
+    label
+    {
+        color:black;
+        font-size: 15px;
+    }
+    body
+    {
+        margin: 0;
+        padding: 0;
+/*        background: url(images/Sky.jpg);*/
+        background-size:cover;
+        font-family: sans-serif;
+        background-color: rgb(255,255,255);
+        
+    }
+    
+    
+    
+  
+    .data-table th, 
+		.data-table td {
+			border: 1px solid black;
+			padding: 7px 17px;
+		}
+    
+    .data-table thead th {
+			background-color:rgb(235,235,235);
+			color: black;
+			border-color: black !important;
+			text-transform: uppercase;
+		}
+    
+    .data-table {
+			border-collapse: collapse;
+			font-size: 14px;
+			min-width: 450px;
+		}
+    
+    .data-table tbody td {
+			color: black;
+		}
+    
+    .data-table tbody tr td {
+			background-color:rgb(235,235,235);
+			border-color: black;
+		}
+
+/*
+span.password {
+    float: right;
+    padding-top: 16px;
+    margin-right: 41%;
+}
+*/
+    
+
+</style>
+</head>
+ <body class="hold-transition skin-blue sidebar-mini">
+       <div id="includedContent"></div> 
+        <div id="includedSidebar"></div>
+
+        
+        
+          <div class="content-wrapper">
+              <section class="content container-fluid">
+
+     <div class="container-fluid">
+        <h1 style="text-align: center; font-size: 30px;font-weight: 600; margin-right:5%;">User Creation</h1>
+    
+
+   
+    <div align = "center">
+        <div class="container-fluid-a" >
+        
+        
+   
+<!--    <h1 style= "text-align: center; margin-top:5px; color:darkblue;"></h1>-->
+  <br>
+
+  
+    <label for="name"><b>Name</b></label>
+    <input type="text" style="margin-left: 22%;" id="name" name="name" required>
+     <br>
+    
+       <label for="uname"><b>UserName</b></label>
+    <input type="text" style="margin-left: 15%;"   id="uname" name="uname" required>
+     <br>
+    
+    <label for="password"><b>Password  </b></label>
+    <input type="password" style="margin-left: 16%;" id="password"  name="password" required>
+       <br>
+    
+      <label for="cpassword"><b>Confirm Password  </b></label>
+    <input type="password" style="margin-left:2.5%; " id="cpassword" name="cpassword" required>
+       <br>
+            <br>
+    
+      <label for="features" style="margin-right: 70%;"><b>Roles</b></label>
+      <div style="margin-top:-8%;">
+           <div class="checkbox" style="margin-left:8%;"> 
+      <label style="font-size: 16px;"><input id="role1" type="checkbox" value="da" >Dashboard</label>
+    </div>
+          
+    <div class="checkbox" style="margin-left: 17%;">
+            <label style="font-size: 16px;"><input id="role2" type="checkbox" value="uc">Upload Category</label>
+          </div>
+
+
+       <div class="checkbox" style="margin-left: 4.5%;">
+                    <label  style="font-size: 16px;"><input id="role3" type="checkbox" value="re">Rewards</label>
+                  </div>
+
+       <div class="checkbox" style="margin-left: 3.5%;">
+                        <label  style="font-size: 16px;"><input id="role4" type="checkbox" value="se">Settings</label>
+                      </div>
+
+
+
+       
+           <!-- <div class="checkbox" style="margin-left: 11%;">
+      <label  style="font-size: 16px;"><input type="checkbox" id="role5" value="sar">Sales Report</label>
+    </div> -->
+    
+           <div class="checkbox" style="margin-left: 9.5%;">
+      <label  style="font-size: 16px;"><input type="checkbox" id="role6" value="usr">User Report</label>
+    </div>
+           <div class="checkbox" style="margin-left: 11%;">
+      <label  style="font-size: 16px;"><input type="checkbox" id="role7" value="ser">Generated Report</label>
+    </div>
+           <div class="checkbox" style="margin-left: 16%;">
+      <label  style="font-size: 16px;"><input type="checkbox" id="role8"  value="rer">Rewards Report</label>
+    </div>
+           <div class="checkbox" style="margin-left:  16.5%;">
+      <label  style="font-size: 16px;"><input type="checkbox" id="role9" value="car">Category Report</label>
+    </div>
+          
+          <div class="checkbox" style="margin-left: 11%;">
+      <label  style="font-size: 16px;"><input type="checkbox" id="role10" value="orr">Order Report</label>
+    </div> 
+    <div class="checkbox" style="margin-left: 11%;">
+      <label  style="font-size: 16px;"><input type="checkbox" id="role13" value="sr">Service Report</label>
+    </div> 
+    <div class="checkbox" style="margin-right: 3%">
+        <label  style="font-size: 16px;"><input type="checkbox" id="role11" value="ii">Imei</label>
+      </div> 
+      <div class="checkbox" style="margin-left: 12%;">
+          <label  style="font-size: 16px;"><input type="checkbox" id="role12" value="us">User Creation</label>
+        </div> 
+      
+      
+      
+    <button id="add" type="submit">Add</button>
+      <br>
+      <br>
+  
+    
+
+    
+    </div>
+    </div>
+    <br>
+    
+   <div style="overflow-x: auto; margin-left:50%; margin-top:30px;">
+      
+        <table class="data-table" id="data-table">
+        <thead>
+			<tr id="tr">
+				<th>Sl.NO</th>
+				<th>Username</th>
+				<th>Password</th>
+				<th>Roles</th>
+				
+			</tr>
+        </thead>
+       </table>
+   
+   
+    
+       </div>
+                 </section>
+        </div>
+    </body>   
+    
+    <script src="users.js"></script>
+    
+    <script src="bower_components/jquery/dist/jquery.min.js"></script>
+    <!-- jQuery 3 -->
+<script src="bower_components/jquery/dist/jquery.min.js"></script>
+<!-- Bootstrap 3.3.7 -->
+<script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+<!-- AdminLTE App -->
+<script src="dist/js/adminlte.min.js"></script>
+    <script> 
+    $(function(){
+      $("#includedContent").load("Header.html"); 
+        $("#includedSidebar").load("Sidepanel.html");        
+//        $("#maindata").load("../CategoryUpload/category.html");   
+    });
+    </script> 
+    <script src="https://www.gstatic.com/firebasejs/5.4.1/firebase.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/5.4.1/firebase-app.js"></script>
+
+    <!-- Add additional services that you want to use -->
+    <script src="https://www.gstatic.com/firebasejs/5.4.1/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/5.4.1/firebase-database.js"></script><script src="https://www.gstatic.com/firebasejs/5.4.1/firebase-storage.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/5.4.1/firebase-firestore.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/5.4.1/firebase-messaging.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/5.4.1/firebase-functions.js"></script>
+    <script>
+      // Initialize Firebase
+      var config = {
+        apiKey: "AIzaSyDtbGtfYuol12eJe_ziEH0WMDyZ9V4x4Ys",
+        authDomain: "sunrise-36b9a.firebaseapp.com",
+        databaseURL: "https://sunrise-36b9a.firebaseio.com",
+        projectId: "sunrise-36b9a",
+        storageBucket: "sunrise-36b9a.appspot.com",
+        messagingSenderId: "876613037199"
+      };
+      firebase.initializeApp(config);
+      $(function() {
+               $('body').removeClass('skin-blue sidebar-mini nav-sm').addClass('skin-blue sidebar-mini nav-sm sidebar-collapse');
+            });
+    </script>
+</html>

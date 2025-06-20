@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+ 
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Category</title>
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    
+    <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Sunrise</title>
+  <!-- Tell the browser to be responsive to screen width -->
+  <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+  <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="bower_components/font-awesome/css/font-awesome.min.css">
+  <!-- Ionicons -->
+  <link rel="stylesheet" href="bower_components/Ionicons/css/ionicons.min.css">
+  <!-- Theme style -->
+  <link rel="stylesheet" href="dist/css/AdminLTE.min.css">
+  
+    
+  <link rel="stylesheet" href="dist/css/skins/skin-blue.css">
+
+  <!-- Google Font -->
+  <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,300italic,400italic,600italic">
+   
+    </head>
+    
+    
+<body class="hold-transition skin-blue sidebar-mini">
+       <div id="includedContent"></div> 
+        <div id="includedSidebar"></div>
+
+        
+        
+          <div class="content-wrapper">
+              <section class="content container-fluid">
+                
+    <h1 style="text-align:center; font-size: 50px; color:#000080;">Category</h1>
+    
+<br>
+
+        
+
+   
+    <div style="margin-top:30px; margin-left:4%; margin-right:8%;  padding : 5px; text-align:center;">
+    
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-2 col-md-offset-1">
+          <a href="mobile_category.html"><img src="../images/mobiles.png" width="100"></a>
+          <h4 style="color:black;">Mobiles</h4>
+         
+          <br>
+      </div>
+        
+         <div class="col-md-2" >
+             <a href ="accesories_category.html"><img src="../images/accesories.png"  width="100"></a>
+             <h4 style="color:black; text-align: center;">Accesories</h4>
+             <br>
+      </div>
+        
+         <div class="col-md-2" >
+             <a href ="computer_category.html"><img src="../images/computers.png"   width="100"></a>
+         <h4 style="color:black;">Computers</h4>
+             <br>
+        </div>
+      
+      
+              <div class="col-md-2" >
+              <a href ="homeappliances_category.html"><img src="../images/homeappliances.png" width="100"></a>
+          <h4 style="color:black;">Home Appliances</h4>
+              <br>
+            
+          </div>
+          
+         <div class="col-md-2 ">
+             <a href ="generalstore_category.html"><img src="../images/fmgc.png" width="100"></a>
+             <h4 style="color:black;">General Store</h4>
+             <br>
+          </div>
+         
+        
+         
+      
+      
+      
+      </div>
+<br>
+      
+       <div class="row">
+             <div class="col-md-2 col-md-offset-1">
+              <a href ="stationary_category.html"><img src="../images/stationary.png"  width="100"></a>
+              <h4 style="color:black;">Stationary</h4>
+              <br>
+          </div>
+           
+          <div class="col-md-2">
+              <a href="homedelivery_category.html"><img src="../images/supply.png" width="100"></a>
+              <h4 style="color:black;">Home Delivery</h4>
+              <br>
+            
+          </div>
+          
+         <div class="col-md-2">
+             <a href ="newarrival_category.html"><img src="../images/newarrival.png" width="100"></a>
+             <h4 style="color:black;">New Arrival</h4>
+             <br>
+          </div>
+         
+          <div class="col-md-2">
+              <a href ="fashion_category.html"> <img src="../images/fashion.png"  width="100"></a>
+              <h4 style="color:black;">Fashion</h4>
+              <br>
+          </div>
+         
+          <div class="col-md-2">
+            <a href ="offers_category.html"> <img src="../images/offers.png"  width="100"></a>
+            <h4 style="color:black;">Offers</h4>
+            <br>
+        </div>
+        </div>
+        <div class="row">
+            <div class="col-md-2 col-md-offset-1">
+                <a href ="homepage_category.html"> <img src="../images/home.png"  width="100"></a>
+                <h4 style="color:black;">Home Page</h4>
+                <br>
+            </div>
+        </div>
+      
+      
+      </div>
+    
+    
+    
+    
+    </div>
+    </div>
+    
+  </section>
+        </div>
+    </body>   
+    
+    
+    
+    
+    
+    
+    <script src="bower_components/jquery/dist/jquery.min.js"></script>
+    <!-- jQuery 3 -->
+<script src="bower_components/jquery/dist/jquery.min.js"></script>
+<!-- Bootstrap 3.3.7 -->
+<script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+<!-- AdminLTE App -->
+<script src="dist/js/adminlte.min.js"></script>
+    <script> 
+    $(function(){
+      $("#includedContent").load("Header.html"); 
+        $("#includedSidebar").load("Sidepanel.html");        
+//        $("#maindata").load("../CategoryUpload/category.html");   
+    });
+
+     var username=sessionStorage.getItem('role');
+        if(username!=null){
+            if(!username.includes('uc'))
+            {
+             window.location = "http://sunrisebusinesses.com/Login/login.html";
+            }
+        }
+        else
+        {
+            window.location = "http://sunrisebusinesses.com/Login/login.html";   
+        }
+
+        $(function() {
+               $('body').removeClass('skin-blue sidebar-mini nav-sm').addClass('skin-blue sidebar-mini nav-sm sidebar-collapse');
+            });
+    </script> 
+</html>
+    
+

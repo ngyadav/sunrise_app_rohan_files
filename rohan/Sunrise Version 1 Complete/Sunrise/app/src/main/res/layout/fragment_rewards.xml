@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android.support.constraint.ConstraintLayoutxmlns="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragment.RewardsFragment"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:id="@+id/linearLayout6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10sp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="50dp"
+                android:textSize="15sp"
+                android:text="AVAILABLE BALANCE:"
+                android:fontFamily="@font/robotolight"
+                android:textColor="@color/lightblue" />
+
+            <TextView
+                android:id="@+id/Rewards"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="\u20B91000"
+                android:textSize="17sp"
+                android:fontFamily="@font/robotobold"
+                android:textColor="#11B0FF" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout8"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:background="#745BEC"
+        android:orientation="horizontal"
+        android:weightSum="3"
+        android.support.constraint.ConstraintLayoutxmlns:layout_constraintEnd_toEndOf="parent"
+        android.support.constraint.ConstraintLayoutxmlns:layout_constraintStart_toStartOf="parent"
+        android.support.constraint.ConstraintLayoutxmlns:layout_constraintTop_toBottomOf="@+id/linearLayout6">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1.7">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/robotobold"
+                android:gravity="center"
+                android:text="Particulars"
+                android:textColor="@color/white"
+                android:textSize="8sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="0.6">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/robotobold"
+                android:gravity="center"
+                android:text="Debit/Credit"
+                android:textColor="@color/white"
+                android:textSize="8sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="0.4">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/robotobold"
+                android:gravity="center"
+                android:text="Balance"
+                android:textColor="@color/white"
+                android:textSize="8sp" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/Recyclerrewards"
+        android:layout_width="match_parent"
+        android:layout_height="506dp"
+        android.support.constraint.ConstraintLayoutxmlns:layout_constraintEnd_toEndOf="parent"
+        android.support.constraint.ConstraintLayoutxmlns:layout_constraintHorizontal_bias="1.0"
+        android.support.constraint.ConstraintLayoutxmlns:layout_constraintStart_toStartOf="parent"
+        android.support.constraint.ConstraintLayoutxmlns:layout_constraintTop_toBottomOf="@+id/linearLayout8">
+
+    </android.support.v7.widget.RecyclerView>
+
+</android.support.constraint.ConstraintLayout>

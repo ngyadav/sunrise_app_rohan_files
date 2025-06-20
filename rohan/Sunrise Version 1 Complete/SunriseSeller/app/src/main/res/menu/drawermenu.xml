@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:aapp="http://schemas.android.com/tools">
+
+    <!--<item android:id="@+id/Nhome" android:title="Home"  android:icon="@drawable/piechart"/>-->
+    <item android:id="@+id/Nbill" android:title="Bill"  android:icon="@drawable/report"/>
+    <item android:id="@+id/Nrewards" android:title="Rewards Summary"  android:icon="@drawable/rewards"/>
+    <item android:id="@+id/Npassword" android:title="MPIN" android:icon="@drawable/lock"/>
+    <item android:id="@+id/Ntopup" android:title="Top Up" android:icon="@drawable/rewards"/>
+
+    <item android:id="@+id/Nlogout" android:title="Logout" android:icon="@drawable/signout"/>
+
+</menu>

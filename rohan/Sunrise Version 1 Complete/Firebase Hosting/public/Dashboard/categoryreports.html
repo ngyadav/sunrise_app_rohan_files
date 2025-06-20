@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+ 
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reports</title>
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    
+    <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Sunrise</title>
+  <!-- Tell the browser to be responsive to screen width -->
+  <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+  <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="bower_components/font-awesome/css/font-awesome.min.css">
+  <!-- Ionicons -->
+  <link rel="stylesheet" href="bower_components/Ionicons/css/ionicons.min.css">
+  <!-- Theme style -->
+  <link rel="stylesheet" href="dist/css/AdminLTE.min.css">
+  
+    
+  <link rel="stylesheet" href="dist/css/skins/skin-blue.css">
+
+  <!-- Google Font -->
+  <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,300italic,400italic,600italic">
+   
+        <style>
+         .data-table th, 
+		.data-table td {
+			border: 1px solid black;
+			padding: 7px 17px;
+		}
+    
+    .data-table thead th {
+			background-color:rgb(235,235,235);
+			color: black;
+			border-color: black !important;
+			text-transform: uppercase;
+		}
+    
+    .data-table {
+			border-collapse: collapse;
+			font-size: 14px;
+			min-width: 450px;
+		}
+    
+    .data-table tbody td {
+			color: black;
+		}
+    
+    .data-table tbody tr td {
+			background-color:rgb(235,235,235);
+			border-color: black;
+		}
+        
+        .table-wrapper
+        {
+            height: 450px;
+            overflow: auto;
+        }
+        
+        </style>
+    </head>
+    
+    
+<body class="hold-transition skin-blue sidebar-mini">
+       <div id="includedContent"></div> 
+        <div id="includedSidebar"></div>
+
+        
+        
+          <div class="content-wrapper">
+              <section class="content container-fluid">
+                
+                    <h1 style="text-align:center; font-size: 50px; color:#000080; margin-top: 50px;">Category Reports</h1>
+                    <br>
+                        <div class="container" style="border-style:solid;padding: 5px;">
+                           <center>
+                           <label for="category" style="margin-left:30px;font-size:25px;    ">Category:</label>
+                           <select  id="role" style="width: 250px;font-size:25px;margin-left: 5px; background-color: rgb(235,235,235); color: black;  ">                            
+                            <option value="Select">Select...</option>
+                            <option value="Mobile">Mobile</option>
+                            <option value="Accesories">Accesories</option>                         
+                            <option value="Computer">Computer</option>
+                            <option value="HomeAppliances">HomeAppliances</option>
+                            <option value="General">General Store</option>
+                            <option value="Stationary">Stationary</option>
+                            <option value="HomeDelivery">HomeDelivery</option>
+                            <option value="NewArrival">NewArrival</option>
+                            <option value="Fashion">Fashion</option>
+                          </select>
+                           
+                           <!-- <img src="images/search.png" height="10px" width="10px">  -->
+                           <i id="search"  style="margin-left:30px;font-size: 1.5em;" class="fa fa-search"></i>
+                           <i id="print" style="margin-left:30px;font-size:1.5em;" class="fa fa-print"></i>
+                           </center>
+                            <center>
+                                <div class="table-wrapper" style="margin-top:20px">
+                            <table class="data-table" id="data-table" >
+                                <thead>
+                                    <tr id="tr">
+                                        <th>Sl.NO</th>
+                                        <th>Name</th>
+                                        <th>Price</th>
+                                        <th>Rewards</th>
+                                        <th>Type</th>
+                                        <th>Brand</th> 
+                                        <th>Quantity</th>
+                                        <th>Ratings</th>                                         
+                                        <th>Stock</th>
+                                        <th>Feature1</th>
+                                        <th>Feature2</th> 
+                                        <th>Feature3</th>
+                                        <th>Feature4</th> 
+                                        <th>Feature5</th>
+                                        <th>Feature6</th> 
+                                        <th>Feature7</th>
+                                        <th>Feature8</th> 
+                                        <th>Feature9</th>
+                                        <th>Feature10</th> 
+                                        <th>Feature11</th>
+                                        <th>Feature12</th>                                                                            
+                                    </tr>
+
+                                </thead>
+                                <tbody>
+
+                                </tbody>
+                            </table>
+                        </div>
+                        </center>
+
+
+                        </div>
+        
+
+   
+                </section>
+        </div>
+    </body>   
+    
+    
+    
+    
+    
+    
+    <script src="bower_components/jquery/dist/jquery.min.js"></script>
+    <!-- jQuery 3 -->
+<script src="bower_components/jquery/dist/jquery.min.js"></script>
+<!-- Bootstrap 3.3.7 -->
+<script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+<!-- AdminLTE App -->
+<script src="dist/js/adminlte.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.14.0/xlsx.full.min.js"></script>
+<script src="https://fastcdn.org/FileSaver.js/1.1.20151003/FileSaver.min.js"></script>
+    <script> 
+    $(function(){
+      $("#includedContent").load("Header.html"); 
+        $("#includedSidebar").load("Sidepanel.html");        
+//        $("#maindata").load("../CategoryUpload/category.html");   
+    });
+    </script> 
+
+<script src="https://www.gstatic.com/firebasejs/5.4.1/firebase.js"></script>
+<script src="https://www.gstatic.com/firebasejs/5.4.1/firebase-app.js"></script>
+
+<!-- Add additional services that you want to use -->
+<script src="https://www.gstatic.com/firebasejs/5.4.1/firebase-auth.js"></script>
+<script src="https://www.gstatic.com/firebasejs/5.4.1/firebase-database.js"></script><script src="https://www.gstatic.com/firebasejs/5.4.1/firebase-storage.js"></script>
+<script src="https://www.gstatic.com/firebasejs/5.4.1/firebase-firestore.js"></script>
+<script src="https://www.gstatic.com/firebasejs/5.4.1/firebase-messaging.js"></script>
+<script src="https://www.gstatic.com/firebasejs/5.4.1/firebase-functions.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyDtbGtfYuol12eJe_ziEH0WMDyZ9V4x4Ys",
+    authDomain: "sunrise-36b9a.firebaseapp.com",
+    databaseURL: "https://sunrise-36b9a.firebaseio.com",
+    projectId: "sunrise-36b9a",
+    storageBucket: "sunrise-36b9a.appspot.com",
+    messagingSenderId: "876613037199"
+  };
+  firebase.initializeApp(config);
+
+  $(function() {
+               $('body').removeClass('skin-blue sidebar-mini nav-sm').addClass('skin-blue sidebar-mini nav-sm sidebar-collapse');
+            });
+</script>
+
+<script src="categoryreports.js"></script>
+</html>
+    
+

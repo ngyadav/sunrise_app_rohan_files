@@ -1,0 +1,18 @@
+{
+  "rules": {
+    ".read": true,
+    ".write": true,
+       "Users": {
+      ".indexOn": ["Phone", "Status","MessagingToken"]
+      },
+        "Orders":{
+          ".indexOn":["Userid"]  
+        },
+          "Category":{
+            ".indexOn":["CategoryName","Name","Stock","Price","Category","Type","Feature1"]
+          },
+          "Rewards":{
+            ".indexOn":["UserId"]
+          }
+  }
+}

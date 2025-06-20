@@ -1,0 +1,119 @@
+
+<html>
+
+<head>
+ 
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Settings</title>
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+       <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Sunrise</title>
+  <!-- Tell the browser to be responsive to screen width -->
+  <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+  <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="bower_components/font-awesome/css/font-awesome.min.css">
+  <!-- Ionicons -->
+  <link rel="stylesheet" href="bower_components/Ionicons/css/ionicons.min.css">
+  <!-- Theme style -->
+  <link rel="stylesheet" href="dist/css/AdminLTE.min.css">
+  
+    
+  <link rel="stylesheet" href="dist/css/skins/skin-blue.css">
+
+  <!-- Google Font -->
+  <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,300italic,400italic,600italic">
+    
+    </head>
+    
+    
+<body class="hold-transition skin-blue sidebar-mini">
+       <div id="includedContent"></div> 
+        <div id="includedSidebar"></div>
+
+        
+        
+          <div class="content-wrapper">
+              <section class="content container-fluid">
+   
+    <h1 style="text-align:center; font-size: 50px; color:#000080;">Settings</h1>
+    <br>
+    
+     <div style="max-width:1200px; margin-top:4%; margin-left:8%; margin-right:8%; width: 1000px; background-color: rgb(235,235,235); text-align:center;">
+         <br>
+         <br>
+    <div class="container" style="margin-left: 2%">
+    <div class="row">
+        <div class="col-md-2">
+        
+            <a href ="imei.html"><i class="fa fa-upload" style="font-size:128px;color:green;"></i></a>
+            <a href ="imei.html"><h3 style="color: black;">Update IMEI</h3></a>
+        
+        
+        </div>
+        
+ 
+        </div>
+       
+        
+        
+        
+        
+        
+        
+        
+        
+        </div>
+    
+    
+    
+    </div>
+
+  </section>
+        </div>
+    </body>   
+    
+    
+    
+    
+    
+    
+    <script src="bower_components/jquery/dist/jquery.min.js"></script>
+    <!-- jQuery 3 -->
+<script src="bower_components/jquery/dist/jquery.min.js"></script>
+<!-- Bootstrap 3.3.7 -->
+<script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+<!-- AdminLTE App -->
+<script src="dist/js/adminlte.min.js"></script>
+    <script> 
+    $(function(){
+      $("#includedContent").load("Header.html"); 
+        $("#includedSidebar").load("Sidepanel.html");        
+//        $("#maindata").load("../CategoryUpload/category.html");   
+    });
+
+         var username=sessionStorage.getItem('role');
+        if(username!=null){
+            if(!username.includes('se'))
+            {
+             window.location = "http://sunrisebusinesses.com/Login/login.html";
+            }
+        }
+        else
+        {
+            window.location = "http://sunrisebusinesses.com/Login/login.html";   
+        }
+        $(function() {
+               $('body').removeClass('skin-blue sidebar-mini nav-sm').addClass('skin-blue sidebar-mini nav-sm sidebar-collapse');
+            });
+
+    </script> 
+</html>

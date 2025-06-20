@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+ <link href="login.css?version=51" rel="stylesheet" type="text/css">
+   
+    </head>
+    <body>
+        <br>
+
+
+
+        <div class="logo" style="float:left;margin-left:15%;margin-top:6%;">
+            <img src="../images/logo.jpeg" width="500px" height="500px" style="opacity: 0.5;">
+        </div>
+
+
+        
+    <div align = "center">
+        <div class="container-fluid">
+            <div class="row">
+
+        <h1 style= "text-align: center; margin-top:5px; color:darkblue;"><br>Login Form</h1>
+      <br>
+
+      
+        <label for="username"><b>Username  </b></label>
+        <input type="text"  id="username" placeholder="Enter Username" name="username" required>
+         <br>
+          <br>
+        <label for="password"><b>Password  </b></label> 
+        <input type="password" id="password" placeholder="Enter Password" name="password" required>
+           <br> <br>
+          <button  type="button"  id='login'>Login</button>
+    <!--
+        <label>
+          <input type="checkbox" checked="checked" name="remember"> Remember me
+        </label>
+    -->
+        <button type="button" class="resetbtn" id='reset'>Reset</button>
+          <br>
+          <br>
+    <!--    <span class="password">Forgot <a href="#">password?</a></span>-->
+
+    </div>
+    </div>
+    </div>
+    </div>
+    </body>
+
+    
+<script type="text/javascript" src="login.js"></script>
+<script src="https://www.gstatic.com/firebasejs/5.4.1/firebase.js"></script>
+<script src="https://www.gstatic.com/firebasejs/5.4.1/firebase-app.js"></script>
+
+<!-- Add additional services that you want to use -->
+<script src="https://www.gstatic.com/firebasejs/5.4.1/firebase-auth.js"></script>
+<script src="https://www.gstatic.com/firebasejs/5.4.1/firebase-database.js"></script><script src="https://www.gstatic.com/firebasejs/5.4.1/firebase-storage.js"></script>
+<script src="https://www.gstatic.com/firebasejs/5.4.1/firebase-firestore.js"></script>
+<script src="https://www.gstatic.com/firebasejs/5.4.1/firebase-messaging.js"></script>
+<script src="https://www.gstatic.com/firebasejs/5.4.1/firebase-functions.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyDtbGtfYuol12eJe_ziEH0WMDyZ9V4x4Ys",
+    authDomain: "sunrise-36b9a.firebaseapp.com",
+    databaseURL: "https://sunrise-36b9a.firebaseio.com",
+    projectId: "sunrise-36b9a",
+    storageBucket: "sunrise-36b9a.appspot.com",
+    messagingSenderId: "876613037199"
+  };
+  firebase.initializeApp(config);
+</script>
+    </html>
